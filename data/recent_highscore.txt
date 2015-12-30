@@ -1,0 +1,3 @@
+data/hello_worlds/4.txt
+00:32:029
+87.30159%

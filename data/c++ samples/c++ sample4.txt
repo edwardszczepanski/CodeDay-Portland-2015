@@ -1,0 +1,21 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int counter = 0;
+    int num = 0;
+    cout << "here are the multiples of 7 up to 70,000" << endl;
+    while (num <= 70000)
+    {
+        if ((num % 7) == 0)
+        {
+            counter = counter + num;
+            cout << counter << endl;
+        }
+        num++;
+    }
+    return 0;
+}

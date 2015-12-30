@@ -1,0 +1,26 @@
+
+int main()
+{
+    double grade = 0;
+    double counter = 0;
+    double total = 0;
+    double classtote = 0;
+    double stop = 0;
+    cout << "enter a student grade percent" << endl;
+    while (stop != 1)
+    {
+        cin >> grade;
+        counter++;
+        if (grade != -1)
+        {
+            total += grade;
+            classtote = total / counter;
+        }
+            else
+            {
+                stop += 1;
+            }
+    }
+    cout << classtote << "is the percent average for your class" << endl;
+    return 0;
+}

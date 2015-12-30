@@ -1,0 +1,22 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    double p = 0;
+    double r = 0;
+    cout << "enter an amount of cash and an intrest rate and find out how much you have after 30 years" << endl;
+    cout << "enter cash" << endl;
+    cin >> p;
+    cout << "enter intrest rate" << endl;
+    cin >> r;
+    r = r / 100;
+    r = r + 1;
+    for (int counter = 0; counter <= 30; counter++)
+    {
+        double amount = p*(pow(r,counter));
+        cout << " your cash amout after " << counter << "years, is" << amount << endl;
+    }
+    return 0;
+}

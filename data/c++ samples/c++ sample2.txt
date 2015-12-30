@@ -1,0 +1,23 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int reverser(int n)
+{
+    int n2 = 0;
+    while (n > 0)
+    {
+        n2 =(n2*10+(n%10));
+        n = (n/10);
+    }
+    return n2;
+}
+int main()
+{
+    int n = 0;
+ 
+    cout << "enter a number" << endl;
+    cin >> n;
+
+    cout <<reverser(n);<< endl;
+    return 0;
+}

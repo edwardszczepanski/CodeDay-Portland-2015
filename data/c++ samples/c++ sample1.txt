@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int N1 = 0;
+    int N2 = 0;
+    cout << "Hello, enter two numbers, and I will find out if they are the same" << endl;
+    cout << "Please enter your first number" << endl;
+    cin >> N1;
+    cout << "Please enter your second number" << endl;
+    cin >> N2;
+    if (N1 == N2)
+    {
+        cout << "Your numbers are the same" << endl;
+    }
+}
